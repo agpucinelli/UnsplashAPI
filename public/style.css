@@ -1,0 +1,61 @@
+
+.containerPhoto {
+    
+    
+    position: relative;
+    transition: transform 0.3s ease;
+
+}
+
+
+.photoImg {
+    width: 100%;    
+    margin: -1px;
+    display: inline-flex;
+    
+
+}
+
+
+.topLeftText {
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    font-size: 1em;
+    top: 10px; /* Ajuste o valor conforme necessário para posicionar o texto no topo */
+    left: 10px;
+    opacity:0.2;
+    
+    
+     /* Define a distância da esquerda */
+    
+
+    
+}
+
+.containerPhoto:hover{
+    transform: scale(1.1);
+    margin-top: 50px; /* Margem superior */
+    margin-bottom: 50px; /* Margem inferior */
+    
+}
+
+.containerPhoto:hover .topLeftText {
+    visibility: hidden;
+    
+}
+.btn-topo {
+    background-color: purple;
+    border-radius: 3px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 2em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
